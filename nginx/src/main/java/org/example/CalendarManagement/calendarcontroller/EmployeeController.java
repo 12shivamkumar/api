@@ -36,4 +36,9 @@ public class EmployeeController {
         ValidateResponse validateResponseEmployeeEmailDuplicate = validateEmployeeEmail.checkEmployeeEmailExist(request.getEmail());
         return null;
     }
+
+    public String isAlive()
+    {
+        return null;
+    }
 }

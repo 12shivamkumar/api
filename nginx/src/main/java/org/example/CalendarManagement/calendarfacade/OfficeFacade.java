@@ -23,4 +23,10 @@ public class OfficeFacade {
     public ResponseEntity<Object> findAll(){
         return new ResponseEntity<>(officeService.findAll(),HttpStatus.OK);
     }
+
+
+    public String isAlive()
+    {
+        return null;
+    }
 }

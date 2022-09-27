@@ -14,5 +14,8 @@ public class MeetingRoomFacade {
     @Autowired
     ValidateOfficeId validateOfficeId;
 
-
+    public String isAlive()
+    {
+        return null;
+    }
 }
